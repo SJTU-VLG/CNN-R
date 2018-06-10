@@ -35,11 +35,11 @@ font size and should be inset 1.0~cm from the right and left margins.
 %===========================================================
 \section{Introduction}
 
-This document serves as an example submission. It illustrates the format
-we expect authors to follow when submitting a paper to ACCV. 
-At the same time, it gives details on various aspects of paper submission,
-including preservation of anonymity and how to deal with dual submissions,
-so we advise authors to read this document carefully.
+In recent years, Convolutional Neural Networks (CNNs) have shown remarkable advantage on computer vision tasks like image classification[]. The basic architecture of convolutional layer consists of two levels, feature extraction and feature mapping. In feature extraction level, the input of each convolutional neuron is connected to local receptive domain and the local characteristics are extracted. Feature mapping level employs multiple convolutional kernels to focue on diferent aspects of the characteristics. The results of each convolutional layer are customarily regarded as features containing spatial and channel-wise information. A series of convolutional layers are stacked together to expand the field of reception and to generate higher level features. The evolution of CNNs from LeNet[] to DenseNet[] increase both the performance and the size of the network, which yields deeper and wider network structures.
+
+From the first application in ResNet[], skip connections have been introduced into CNN structures, and proven effective in various vision tasks. Skip connections combine the output of previous layer and the current layer, dealing with the gradient vanishing problem. DenseNet[] connects densely in a block to make better use of previous features. To further utilize features from different layers, Yu[deep layer aggregation] extends the current skip connection approach proposes deep layer aggregation architectures. These architectures simply combine features of different level by concatenation or addition, without considering the interior relationship between low-level and high-level feature representations. 
+
+Recurrent Neural Networks (RNNs) 
 %Do not use any additional Latex macros.
 
 %------------------------------------------------------------------------- 
