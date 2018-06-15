@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.29)  10 JUN 2018 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.29)  15 JUN 2018 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,56 +345,60 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 (g:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{g:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) [1{g:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2] [3]
+]
+Overfull \hbox (0.54266pt too wide) in paragraph at lines 50--51
+\OT1/cmr/m/n/10 LSTM brings with higher per-for-mance with-out in-creas-ing muc
+h pa-ram-e-ter count.
+ []
 
-LaTeX Warning: Citation `Authors18' on page 4 undefined on input line 193.
+[2] [3]
+
+LaTeX Warning: Citation `Authors18' on page 4 undefined on input line 203.
+
+[4]
+
+LaTeX Warning: Citation `Authors18b' on page 5 undefined on input line 210.
 
 
-LaTeX Warning: Citation `Authors18b' on page 4 undefined on input line 200.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--234
+Underfull \hbox (badness 10000) in paragraph at lines 238--244
 
  []
 
-[4] [5]
-Overfull \hbox (3.8771pt too wide) in paragraph at lines 323--329
+[5]
+Overfull \hbox (3.8771pt too wide) in paragraph at lines 333--339
 \OT1/cmr/m/n/10 of Col-lage Lan-guages,'' ``On Cor-rect-ing the In-tru-sion of 
 Trac-ing Non-deterministic
  []
 
-<eijkel2.pdf, id=31, 491.8375pt x 399.4925pt>
+[6] <eijkel2.pdf, id=35, 491.8375pt x 399.4925pt>
 File: eijkel2.pdf Graphic file (type pdf)
  <use eijkel2.pdf>
-Package pdftex.def Info: eijkel2.pdf used on input line 365.
+Package pdftex.def Info: eijkel2.pdf used on input line 375.
 (pdftex.def)             Requested size: 227.69641pt x 184.9429pt.
- [6] [7 <./eijkel2.pdf>]
+ [7]
+[8 <./eijkel2.pdf>]
 
-LaTeX Warning: Citation `Alpher02' on page 8 undefined on input line 460.
-
-
-LaTeX Warning: Citation `Alpher03' on page 8 undefined on input line 460.
+LaTeX Warning: Citation `Alpher02' on page 9 undefined on input line 470.
 
 
-LaTeX Warning: Citation `Herman04' on page 8 undefined on input line 460.
+LaTeX Warning: Citation `Alpher03' on page 9 undefined on input line 470.
 
-[8]
+
+LaTeX Warning: Citation `Herman04' on page 9 undefined on input line 470.
+
 No file accv2018submission.bbl.
 [9] (./accv2018submission.aux) ) 
 Here is how much of TeX's memory you used:
  2959 strings out of 493014
  38066 string characters out of 6137000
- 114019 words of memory out of 5000000
+ 113019 words of memory out of 5000000
  6447 multiletter control sequences out of 15000+600000
  12037 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,30p,952b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,29p,952b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 <g:/texlive/2016/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmbx10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.
@@ -413,7 +417,7 @@ e1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
 pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on accv2018submission.pdf (9 pages, 252141 bytes).
+Output written on accv2018submission.pdf (9 pages, 255265 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
