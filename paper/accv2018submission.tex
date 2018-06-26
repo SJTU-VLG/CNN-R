@@ -35,7 +35,7 @@ font size and should be inset 1.0~cm from the right and left margins.
 %===========================================================
 \section{Introduction}
 
-In recent years, Convolutional Neural Networks (CNNs) have shown remarkable advantage on computer vision tasks like image classification[]. The basic architecture of convolutional layer consists of two levels, feature extraction and feature mapping. In feature extraction level, the input of each convolutional neuron is connected to local receptive domain and the local characteristics are extracted. Feature mapping level employs multiple convolutional kernels to focue on diferent aspects of the characteristics. The results of each convolutional layer are customarily regarded as features containing spatial and channel-wise information. A series of convolutional layers are stacked together to expand the field of reception and to generate higher level features. The evolution of CNNs from LeNet[] to DenseNet[] increase both the performance and the size of the network, which yields deeper and wider network structures.
+In recent years, Convolutional Neural Networks (CNNs) have shown remarkable advantage on computer vision tasks like image classification[]. The basic architecture of convolutional layer consists of two levels, feature extraction and feature mapping. In feature extraction level, the input of each convolutional neuron is connected to local receptive domain and the local characteristics are extracted. Feature mapping level employs multiple convolutional kernels to focus on diferent aspects of the characteristics. The results of each convolutional layer are customarily regarded as features containing spatial and channel-wise information. A series of convolutional layers are stacked together to expand the field of reception and to generate higher level features. The evolution of CNNs from LeNet[] to DenseNet[] increases both the performance and the size of the network, which yields deeper and wider network structures.
 
 From the first application in ResNet[], skip connections have been introduced into CNN structures, and proven effective in various vision tasks. Skip connections combine the output of previous layer and the current layer, dealing with the gradient vanishing problem. DenseNet[] connects densely in a block to make better use of previous features. To further utilize features from different layers, Yu[deep layer aggregation] extends the current skip connection approach proposes deep layer aggregation architectures. These architectures simply combine features of different level by concatenation or addition, without considering the interior relationship between low-level and high-level feature representations. 
 
@@ -47,8 +47,7 @@ The receptive fields and feature maps sizes of different convolutional layers va
 
 The development of new network architectures is always a time consuming task with abundant hyper parameters to determine. Previous work on layer aggreegation such as DLA[] brings with huge change on the original network architecture, which can even be much more complicated. However, our proposed CNN-RA won't do any modification on the original network, by only connecting it with a parallel LSTM. This property enable CNN-RA easily applicable to multiple convolutional network structures. 
 
-Our evaluation experiments extends famous network structures VGG[] and ResNet[] for standard image classification dataset. The testing results show improvements across different network structures and datasets. The connected LSTM brings with higher performance without increasing much parameter count. The experiment processes show that the relationship between two convolutional blocks with a down sampling layer inside has the most important contribution to the model.
-
+Our evaluation experiments extend famous network structures VGG[] and ResNet[] for standard image classification dataset. The testing results show improvements across different network structures and datasets. The connected LSTM brings with higher performance without increasing much parameter count. The experiment processes show that the relationship between two convolutional blocks with a down sampling layer inside has the most important contribution to the model.
 
 %Do not use any additional Latex macros.
 
@@ -57,6 +56,10 @@ Our evaluation experiments extends famous network structures VGG[] and ResNet[] 
 \section{Related Work}
 
 \section{Methodology}
+Convolutional layer aggregation is a combination of features from different layers. The output matrices of convolutional layers are regarded as expressive features for vision tasks. In general, shallow layers contain low-level features and deep layers contain high-level features. Existing work simply uses high-level features or a combination of all layers. In this work, we take into account both feature combination and the sequential tranformation relationship between all levels.
+\subsection{Convolutional Feature Mapping}
+\subsection{Recurrent Aggregation using LSTM}
+\subsection{Exemplars: VGG-RA and ResNet-RA}
 
 \section{Training Details}
 
