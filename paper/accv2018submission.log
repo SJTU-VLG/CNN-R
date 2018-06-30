@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.29)  26 JUN 2018 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.29)  30 JUN 2018 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,54 +354,88 @@ Overfull \hbox (0.54266pt too wide) in paragraph at lines 50--51
 h pa-ram-e-ter count.
  []
 
+[2] <Figures/CNN-RA.png, id=17, 555.0336pt x 241.3818pt>
+File: Figures/CNN-RA.png Graphic file (type png)
 
-Underfull \vbox (badness 6691) has occurred while \output is active []
+<use Figures/CNN-RA.png>
+Package pdftex.def Info: Figures/CNN-RA.png used on input line 65.
+(pdftex.def)             Requested size: 341.43306pt x 148.4876pt.
+ [3 <./Figures/CNN-RA.png>]
+<Figures/existed_aggr.png, id=30, 715.92468pt x 276.28218pt>
+File: Figures/existed_aggr.png Graphic file (type png)
 
- [2]
-[3] [4]
+<use Figures/existed_aggr.png>
+Package pdftex.def Info: Figures/existed_aggr.png used on input line 89.
+(pdftex.def)             Requested size: 341.43306pt x 131.76236pt.
+ [4 <./Figures/existed_aggr.png>]
+File: Figures/CNN-RA.png Graphic file (type png)
 
-LaTeX Warning: Citation `Authors18' on page 5 undefined on input line 206.
+<use Figures/CNN-RA.png>
+Package pdftex.def Info: Figures/CNN-RA.png used on input line 113.
+(pdftex.def)             Requested size: 341.43306pt x 148.4876pt.
+ [5]
+File: Figures/CNN-RA.png Graphic file (type png)
+ <use Figures/CNN-RA.png>
+Package pdftex.def Info: Figures/CNN-RA.png used on input line 121.
+(pdftex.def)             Requested size: 341.43306pt x 148.4876pt.
+
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [6]
+[7] [8] <Figures/Cifar10.png, id=49, 427.3566pt x 302.0886pt>
+File: Figures/Cifar10.png Graphic file (type png)
+
+<use Figures/Cifar10.png>
+Package pdftex.def Info: Figures/Cifar10.png used on input line 200.
+(pdftex.def)             Requested size: 284.52756pt x 201.13069pt.
+File: Figures/Cifar10.png Graphic file (type png)
+ <use Figures/Cifar10.png>
+Package pdftex.def Info: Figures/Cifar10.png used on input line 206.
+(pdftex.def)             Requested size: 227.62204pt x 160.90363pt.
+ [9] [10 <./Figures/Cifar10.png>] [11] [12]
+
+LaTeX Warning: Citation `Authors18' on page 13 undefined on input line 352.
 
 
-LaTeX Warning: Citation `Authors18b' on page 5 undefined on input line 213.
+LaTeX Warning: Citation `Authors18b' on page 13 undefined on input line 359.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--247
+Underfull \hbox (badness 10000) in paragraph at lines 387--393
 
  []
 
-[5] [6]
-Overfull \hbox (3.8771pt too wide) in paragraph at lines 336--342
+[13] [14]
+Overfull \hbox (3.8771pt too wide) in paragraph at lines 482--488
 \OT1/cmr/m/n/10 of Col-lage Lan-guages,'' ``On Cor-rect-ing the In-tru-sion of 
 Trac-ing Non-deterministic
  []
 
-<eijkel2.pdf, id=34, 491.8375pt x 399.4925pt>
+<eijkel2.pdf, id=71, 491.8375pt x 399.4925pt>
 File: eijkel2.pdf Graphic file (type pdf)
  <use eijkel2.pdf>
-Package pdftex.def Info: eijkel2.pdf used on input line 378.
+Package pdftex.def Info: eijkel2.pdf used on input line 524.
 (pdftex.def)             Requested size: 227.69641pt x 184.9429pt.
- [7] [8 <./eijkel2.pdf>]
+ [15] [16 <./eijkel2.pdf>]
 
-LaTeX Warning: Citation `Alpher02' on page 9 undefined on input line 473.
-
-
-LaTeX Warning: Citation `Alpher03' on page 9 undefined on input line 473.
+LaTeX Warning: Citation `Alpher02' on page 17 undefined on input line 619.
 
 
-LaTeX Warning: Citation `Herman04' on page 9 undefined on input line 473.
+LaTeX Warning: Citation `Alpher03' on page 17 undefined on input line 619.
 
-[9]
+
+LaTeX Warning: Citation `Herman04' on page 17 undefined on input line 619.
+
+[17]
 No file accv2018submission.bbl.
-[10] (./accv2018submission.aux) ) 
+[18] (./accv2018submission.aux) ) 
 Here is how much of TeX's memory you used:
- 2959 strings out of 493014
- 38066 string characters out of 6137000
- 114019 words of memory out of 5000000
- 6447 multiletter control sequences out of 15000+600000
+ 2983 strings out of 493014
+ 38520 string characters out of 6137000
+ 116090 words of memory out of 5000000
+ 6467 multiletter control sequences out of 15000+600000
  12037 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,29p,953b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,29p,1892b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 <g:/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9
@@ -419,11 +453,12 @@ t/fonts/type1/public/amsfonts/cm/cmss9.pfb><g:/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy7.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9
-.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on accv2018submission.pdf (10 pages, 258008 bytes).
+.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on accv2018submission.pdf (18 pages, 373988 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 159 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

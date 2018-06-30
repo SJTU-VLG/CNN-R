@@ -56,14 +56,160 @@ Our evaluation experiments extend famous network structures VGG[] and ResNet[] f
 \section{Related Work}
 
 \section{Methodology}
-Convolutional layer aggregation is a combination of features from different layers. The output matrices of convolutional layers are regarded as expressive features for vision tasks. In general, shallow layers contain low-level features and deep layers contain high-level features. Existing work simply uses high-level features or a combination of all layers. In this work, we take into account both feature combination and the sequential tranformation relationship between all levels.
+Convolutional layer aggregation is a combination of features from different layers. The output matrices of convolutional layers are regarded as expressive features for vision tasks. In general, shallow layers contain low-level features and deep layers contain high-level features. Existing work simply uses high-level features or a combination of all layers. In this work, we take into account both feature combination and the sequential tranformation relationship between all levels. Output features of convolutional layers form a sequence and RNNs are born to deal with sequential data. LSTM is employed to do the layer aggregation on CNN in this paper. The output shape of different layers varies, therefore we use mapping nodes to map selected features to the same dimention, and aggregrate them to be the input of LSTM. The structure diagram of CNN-RA is shown in Fig.~\ref{fig:CNN-RA}.
+
+Recent network design tends to assemble serveral blocks together and simplify the network representation. Several layers are grouped into a single block which is capable of realizing some feature extraction and transformation function. Our proposed aggregation method employs the output of blocks instead of all layers to focus on useful but not redundant information.
+
+\begin{figure}  
+	\centering
+	\includegraphics[width=12cm]{Figures/CNN-RA.png}
+	\caption{Structure of CNN-RA}
+	\label{fig:CNN-RA}
+\end{figure}
+
 \subsection{Convolutional Feature Mapping}
+
+Convolutioanl feature mapping helps transform feature matrices of different blocks into vectors with the same dimention. The feature resolution and number of channels varies among blocks because of convolution and down-sampling operations. Then the blocks are grouped into stages according to their output shape. Blocks within the same stage shares common mapping operation which is different from other stages. In general, deeper layer holds smaller feature resolution and more channels. We propose to take the feature matrix of the last block as the standard $S \in \mathbb{R}^{H\times W \times C}$ and transform other matrices towards it. 
+
+The standard $S$ contains high-level features and each unit of $S$ holds a large receptive field size due to previous convolution and down-sampling operations. For such output features we tend to exploit their channel dependencies instead total information. Therefore, we do global average pooling on $S$ to squeeze the spacial information into a channel-wise vector. Then a channel descripter $D\in \mathbb{R}^C$ is generated with the $c_{th}$ element calculated by:
+\begin{equation}
+D_c = F_{gp}(S_c) = \frac{1}{H\times W}\sum_{i=1}^H\sum_{j=1}^W S_c(i,j).
+\end{equation}
+
+Shallow blocks, where each unit can cover a limited region of receptive field, contain local information and this information helps extract fine features. Our propposed layer aggregation pay attention to both low-level and high-level features,  and thus global average pooling operation is not suitable for these shallow blocks. We embed a convolutional layer with kernel size $k\times k$ and stride $l=k$ to combine local information, and then use average pooling layer with kernel size equal to the feature map shape of $S$.  An output matrix $U\in \mathbb{R}^{h\times w\times c}$ is generated with $h\times w\times c=C$.  We then expand the matrix $U$ to a vector with the same length as $D$.
+
+The receptive fields of  blocks in middle stages are large enough to cover the input image, and the numbers of channels are normally less than $C$. For these kinds of blocks, we first embed a convolutional layer with channel number $C$ to ectend the channel number, and then take global average pooling on the output. A vector with length $C$ is then generated.
+
+The generated vectors share the same length and can be arranged into a matrix. Given a network structure with $N$ blocks and then we can generate a feature matrix $V\in \mathbb{R}^{N\times C}$.
+
 \subsection{Recurrent Aggregation using LSTM}
+After convolutional feature mapping we get a matrix $V\in \mathbb{R}^{N\times C}$. The matrix is constructed by assembling a sequence of $N$ feature vectors $v \in \mathbb{R}^{1\times C}$ and we denote $V=[v_1, v_2, \cdots, v_N]$. As shown in Fig.~\ref{fig:CNN-RA}, the sequential vectors are arranged according to the generated order in the CNN structure, and $[v_1$ to $v_N]$ denote from low-level feature to high-level feature. 
+\begin{figure}  
+	\centering
+	\includegraphics[width=12cm]{Figures/existed_aggr.png}
+	\caption{Different approaches to aggregation. (a) composes blocks without aggregation as is the default for classification and regression networks. (b) combines parts of the network with skip connections, as is commonly used for tasks like segmentation and detection, but does so only shallowly by merging earlier parts in a single step each. }
+	\label{fig:exited_aggr}
+\end{figure}
+Existing work on convolutional layer aggregation focus on the linear and non-linear combination of different layers. Fig.~\ref{fig:exited_aggr}(b) show the shallowest aggregation, which simply make linear combination on all blocks. Yu[] proposed iterative deep aggregation (IDA) and hierarchical deep aggregation (HDA) as shown in Fig.~\ref{fig:exited_aggr}(c) and Fig.~\ref{fig:exited_aggr}(d).  IDA iterativly merges lower layers with deeper layers to refine shallow features. HDA employs deep and branching structure to better preserve features.
+
+Recurrent aggregation using LSTM (RA-LSTM) merges blocks as a sequence to both contain the spatial and channel-wise information and explore the transformation relationship according to the order. The mapped feature vectors share the same length and form a regular sequence. One typical sequential data is text, and RNN has shown their tremendous advantage on processing text data. The successful application of RNNs mainly rely on their memory on contextual information. The memory mechanism helps combine all the input inforamtion together and is capable of detecting the correlation among all steps. LSTM employs input gate, forget gate and output gate to realize the long short-term memory, which naturally introduce attention mechanism to focus on useful information. LSTM takes input of $n$ steps, with all the input vector sharing the same dimention and the mapped feature matrix $V\in \mathbb{R}^{N\times C}$ satisfies the requirements. The output vector of LSTM $U$ can be calculated by:
+\begin{equation}
+U = F_{LSTM}(V)
+\end{equation}
+where $F_{LSTM}$ denote a standard LSTM structure with forget gates.The inputs of LSTM connect to the convolutional blocks through mapping nodes, and the gradient can be directly back propagated to all the blocks. These connections contribute to avoiding vanishing gradient problem and helps convolutional blocks to extract more expressive sequential features.
+
+The output vector $U$ of LSTM contains squeezed and abstract information through the convolutional network. To utilize this abstract feature, we embed a simple non-linear combination before the output layer as:
+\begin{equation}
+u = \sigma(WU)
+\end{equation}
+where $\sigma$ denote the ReLU[] function. 
+
 \subsection{Exemplars: VGG-RA and ResNet-RA}
+The flexibility of recurrent aggregation using LSTM means that it can be directly appended to standard convolutional neural networks, without any modification on the original structure. Given a normal CNN, all we need to do is selecting output features to be employed, mapping them to vectors with the same length and arrange them into a matrix as the input of LSTM. In this paper, we apply RA-LSTM to modern architexctures VGGNet[] and ResNet[] to show the efficiency.
+
+For non-blocked networks such as VGGNet, feature selection need to be done before layer aggregation. In general, modern CNN architectures repeat serval convolution followed by a down-sampling operation to extract features. We classify the convolutional layers sharing the same feature resolution into the same stage, and split each stage into 1 or more blocks manually. Then the network is grouped into blocks with each blocks contains more than one convolutional layers. We construct VGG-RA network by simply choose the first three stages of VGGNet and aggregrate it with a LSTM network. The VGG-RA network structure is shown in Fig.~\ref{fig:VGG-RA}.
+\begin{figure}  
+	\centering
+	\includegraphics[width=12cm]{Figures/CNN-RA.png}
+	\caption{Structure of CNN-RA}
+	\label{fig:VGG-RA}
+\end{figure}
+
+Blocked networks like ResNet are easy to apply RA-LSTM, with each block output a feature matrix. For complex blocks such as a residual block with 20 or more convolutional layers, we can also split them into more subblocks. We employ ResNet with 3 residual blocks to build ResNet-RA, and the structure diagram is shown in Fig.~\ref{fig:ResNet-RA}.
+\begin{figure}  
+	\centering
+	\includegraphics[width=12cm]{Figures/CNN-RA.png}
+	\caption{Structure of CNN-RA}
+	\label{fig:ResNet-RA}
+\end{figure}
 
 \section{Training Details}
+\subsection{Feature selection}
+Given a standard CNN structure, we just select some of the convolutional layers to be aggregrated. A large number of outputs brings with complexity and much redundant information, which makes against the appearance and convergence rate of LSTM. The selected blocks has to satisfies three rules we proposed: (a)each block contain at least 2 convolutional layers, (b)each stage contains at most 2 blocks, (c)the selected layer in each stage should be located before the corresponding down-sampling layer. According to these three rules, we split VGGNet and ResNet into 3 blocks, which is shown in Table~\ref{table:headings}.
+\subsection{Feature Mapping}
+
+Feature mapping nodes transform the feature matrix of CNN layers to the input ventors of LSTM. The feature resolution and channel number varies from shallow layers to deep layers, however, LSTM requires inputs of a common dimension. We first take global average pooling on the last block output and generate a standard vector. In general, previous blocks hold larger feature map and fewer channels. We propose to treat differnet blocks according to their feature resolutions, and group them into three levels, shallow level, mid level and last level. The last level only contains the final block. The mid level contains blocks whose feature resolutions is $2\times$ or $1\times$ larger than the final blocks. The shallow blocks contains the rest blocks. 
+
+The last block outputs a standard vector $v_e$ with the same dimention as the last channel number $C$ by global average pooling. For mid level blocks, we employ a single convolutional layer with to transform the feature resolution and channel number into the same as the final block and then take the global average pooling operation. Blocks in shallow levels are handled specially, because their feature resolutions are at least $4\times$ larger than the final block and the receptive fields may not cover the input size. These blocks contains more details information which we hope to utilize. Thus we first combine the spacial information by a convolutional layer with stride 2, and take average pooling with the kernel size equal to the shape of the final block. A feature matrix $u \in \mathbb{R}^{h\times w \times c}$ is then generated with $h\times w \times c = C$ and is expanded to $v_s$. All feature vectors are arranged into a matrix $V$ as the input of LSTM.
+
+\subsection{Implementation Details}
+
+We verify the effectiveness of RA-LSTM on three famous classification benchmark Cifar10[], SVHN[] and Cifar100[]. All these three datasets contain images with size $32\times 32\times 3$. We do data augmentation on Cifar10 and Cifar100 by first resizing the images to $40\times 40\times 3$ and then randomly cropped them to $32\times 32\times 3$. We also flip the images at random.
+
+Considering the small resolution of images, we do some manipulation on the original network structure. Standard VGGNet consists of five down-sampling layers and cannot be directly applied to small images. We select the first three stages with each containing two convolutional layers and a pooling layer, which we denote as VGG-1 in this paper. The selected network contains totally 6 convolutional layers and we group them into 3 blocks with each containing 2 layers. VGG-1 is shallow and each stage contains only two layers. We then double each block to 4 layers and generate a new network denoted as VGG-2. VGG-2 contains 12 layers and is also grouped into 3 blocks according to their feature resolutions. ResNet is block-wise and we assemble three blocks with each containg 20 convolutional layers. To eliminate the influence of complexity by applying LSTM, we embed a fully-connected layers before output layer in the re-implementation.
+
+We apply RA-LSTM to the three networks by appending a normal LSTM structure. The aggregrated network is then correspondingly denoted as VGG-1-RA, VGG-2-RA and ResNet-RA. The structure parameters is list in Table~\ref{table:struc}. We employ Batch-Normalization in each model to accelerate the convergence, and learning rate decay to optimize the convergence results.
+
+\setlength{\tabcolsep}{4pt}
+\begin{table}
+\begin{center}
+\caption{
+Network parameters of network re-implementation and aggregation.
+}
+\label{table:struc}
+\begin{tabular}{lllll}
+\hline\noalign{\smallskip}
+Network& Block1 & Block2 & Block3 & Classifier\\
+\noalign{\smallskip}
+\hline
+\noalign{\smallskip}
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\setlength{\tabcolsep}{1.4pt}
+
 
 \section{Results}
+
+\subsection{Classification with RA-LSTM}
+
+We evaluate our recurrent aggregation methods on three image classification benchmark datasets Cifar10, SVHN and Cifar100 using three standard networks. We first re-implement VGG-1, VGG-2 and ResNet shown in Table~\ref{table:struc}, and train them on the three datasets. The networks are trained by SGD with momentum 0.9. We set weight decay as $10^{-4}$ and batch size as 64. For all the three datasets, we train 100 epoachs. For Cifar10 and SVHN, the learning rates starts at 0.01, and is reduced by 10 at $50_{th}$ and $75_{th}$ epoach. For Cifar100, the learning rates starts at 0.005 and is reduced at $80_{th}$ epoach. The data augmentation is operated on Cifar10 and Cifar100 with random-cropping and flipping. Then we evaluate the trained model on the three test set and take the results as the baselines and are shown in Table~\ref{table:test}.
+
+After the training and evaluation of the re-implemented network, we build VGG-1-RA, VGG-2-RA and ResNet-RA by joining LSTM and the original network with mapping nodes. To be fair, we train the aggregrated network with the same procedure and hyper-parameters.We evaluate our aggregrated network on the three test sets, and the results are shown in Table~\ref{table:test}.
+\setlength{\tabcolsep}{4pt}
+\begin{table}
+\begin{center}
+\caption{Validation accuracies on three datasets. The number in parenthesis represents the improvements of network with RA-LSTM over the original network.}
+\label{table:test}
+\begin{tabular}{l|lll}
+\hline\noalign{\smallskip}
+Network& Cifar10 & SVHN & Cifar100\\
+\noalign{\smallskip}
+\hline
+\noalign{\smallskip}
+VGG-1 & 93.73 & 97.97 & 73.01\\
+VGG-1-RA & 94.49(0.76)$\quad$ & 98.11(0.14)$\quad$ & 74.81(1.80)\\
+VGG-2 & 94.91 & 98.14 & 76.15\\
+VGG-2-RA & 95.30(0.39) & 98.32(0.18) & 77.48(1.33)\\
+ResNet & 93.74 & 98.00 & 75.87\\
+ResNet-RA & 94.78(\textbf{1.04}) & 98.19(\textbf{0.19}) & 77.85(\textbf{1.98})\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\setlength{\tabcolsep}{1.4pt}
+
+In Table~\ref{table:test}, the digits represents the improvement on testing accuracy of networks with RA-LSTM over the original ones. For all three networks over the three benchmark datasets, our proposed recurrent aggregation method makes improvements. On Cifar10, ResNet-RA achieves over 1\% on testing accuracy. On Cifar100, all the three networks with RA-LSTM achieves more than 1\% improvements, and ResNet-RA even increase remarkably 1.98\%.
+
+These comparsion experiments show the effectiveness of RA-LSTM. Considering the complexity and difficulty of the datasets themselves, Cifar100 contains 100 classes while Cifar10 and SVHN contains 10. The otherness of intra-class images in Cifar10 is much larger SVHN. Thus we rank them as Cifar100, Cifar10 and SVHN according to their complexity. The testing results show that, all these three networks show better performance on simple datasets over the complex one, and networks with RA-LSTM show the same phenomenon. Paying attention to the improvements on the three datasets and we notice that, the increment of accuracy of three networks is larger when the task is more complex. The improvement on SVHN is less than 0.2\%, and that of Cifar10 achieves 1.04\%, while the accuracy increases up to 1.98\% over Cifar100. The difference of testing results is caused by two reasons. The first is these networks are capable to deal with simple tasks well, and the upside potential is relatively smaller than the comple tasks. the second reason is concluded as the effectiveness of infomation aggregation. For simple tasks such as SVHN classification, high-level features are enough to distinguish different classes. However, for complex problems like Cifar100, the intra-class information is complicated with backgrounds and a variety samples of the same class. Then we need to utilize the features from low-level to high-level and their combination patterns. The results indicated that the recurrent aggrement methods works better on more complex tasks. Another remarkable fact is that, the RA-LSTM shows better results on ResNet which has totally 61 layers. In ResNet, each block contains 20 convolutional layers, which brings significant difference between two blocks. RA-LSTM seems to work better on capturing feature transformation relationship of deeper blocks.
+
+Our model takes different learning decay between Cifar10, SVHN and Cifar100. In Fig.~\ref{fig:Cifar10} and Fig.~\ref{fig:Cifar100} we show the training procedure on Cifar10 and Cifar100. It can be seen that, on Cifar10, recurrent aggregation methods helps the network converge faster and show better final results. On Cifar100, all the three networks converges slower at the beginning with RA-LSTM, however, they achieve higher performance after learning rate decay. ResNet-RA increase the most at the learning rate decay point, and surpass VGG-2-RA at the end. These learning curves how the different effect of RA-LSTM on various tasks. For simple tasks, networks with aggregation converges faster and achieve better results in the end. For complex tasks, recurrent aggregation brings with lower convergence but higher accuracy eventually. The appended LSTM help extract more expressive features, and it takes longer to better fit the complex dataset.
+\begin{figure}   
+	\centering
+	\includegraphics[width=10cm]{Figures/Cifar10.png}
+	\caption{Structure of CNN-RA}
+	\label{fig:Cifar10}
+\end{figure}
+\begin{figure}  
+	\centering
+	\includegraphics[width=8cm]{Figures/Cifar10.png}
+	\caption{Structure of CNN-RA}
+	\label{fig:Cifar100}
+\end{figure}
+
+\subsection{More Explorations}
+To better understand the effectiveness of our proposed RA-LSTM, we explore some other methods to employ the outputs of LSTM. 
 
 \section{Conclusion}
 
