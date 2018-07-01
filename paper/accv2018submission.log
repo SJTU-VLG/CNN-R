@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.29)  30 JUN 2018 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.29)  1 JUL 2018 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,32 +259,38 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 144.
 )
-(./accv2018submission.aux)
+(g:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen139
+)
+(g:/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (./accv2018submission.aux)
 \openout1 = `accv2018submission.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 (g:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count135
-\scratchdimen=\dimen139
+\scratchdimen=\dimen140
 \scratchbox=\box58
 \nofMPsegments=\count136
 \nofMParguments=\count137
 \everyMPshowfont=\toks24
 \MPscratchCnt=\count138
-\MPscratchDim=\dimen140
+\MPscratchDim=\dimen141
 \MPnumerator=\count139
 \makeMPintoPDFobject=\count140
 \everyMPtoPDFconversion=\toks25
@@ -336,129 +342,118 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
 (g:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 (g:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{g:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-Overfull \hbox (0.54266pt too wide) in paragraph at lines 50--51
-\OT1/cmr/m/n/10 LSTM brings with higher per-for-mance with-out in-creas-ing muc
-h pa-ram-e-ter count.
- []
-
-[2] <Figures/CNN-RA.png, id=17, 555.0336pt x 241.3818pt>
+] [2] [3]
+<Figures/CNN-RA.png, id=20, 555.0336pt x 271.2534pt>
 File: Figures/CNN-RA.png Graphic file (type png)
+ <use Figures/CNN-RA.png>
+Package pdftex.def Info: Figures/CNN-RA.png used on input line 67.
+(pdftex.def)             Requested size: 341.43306pt x 166.8633pt.
 
-<use Figures/CNN-RA.png>
-Package pdftex.def Info: Figures/CNN-RA.png used on input line 65.
-(pdftex.def)             Requested size: 341.43306pt x 148.4876pt.
- [3 <./Figures/CNN-RA.png>]
-<Figures/existed_aggr.png, id=30, 715.92468pt x 276.28218pt>
+[4 <./Figures/CNN-RA.png>]
+<Figures/existed_aggr.png, id=31, 925.056pt x 531.9072pt>
 File: Figures/existed_aggr.png Graphic file (type png)
 
 <use Figures/existed_aggr.png>
-Package pdftex.def Info: Figures/existed_aggr.png used on input line 89.
-(pdftex.def)             Requested size: 341.43306pt x 131.76236pt.
- [4 <./Figures/existed_aggr.png>]
-File: Figures/CNN-RA.png Graphic file (type png)
+Package pdftex.def Info: Figures/existed_aggr.png used on input line 91.
+(pdftex.def)             Requested size: 369.88582pt x 212.68605pt.
 
-<use Figures/CNN-RA.png>
-Package pdftex.def Info: Figures/CNN-RA.png used on input line 113.
-(pdftex.def)             Requested size: 341.43306pt x 148.4876pt.
- [5]
-File: Figures/CNN-RA.png Graphic file (type png)
- <use Figures/CNN-RA.png>
-Package pdftex.def Info: Figures/CNN-RA.png used on input line 121.
-(pdftex.def)             Requested size: 341.43306pt x 148.4876pt.
-
-Underfull \vbox (badness 1043) has occurred while \output is active []
-
- [6]
-[7] [8] <Figures/Cifar10.png, id=49, 427.3566pt x 302.0886pt>
-File: Figures/Cifar10.png Graphic file (type png)
-
-<use Figures/Cifar10.png>
-Package pdftex.def Info: Figures/Cifar10.png used on input line 200.
-(pdftex.def)             Requested size: 284.52756pt x 201.13069pt.
-File: Figures/Cifar10.png Graphic file (type png)
- <use Figures/Cifar10.png>
-Package pdftex.def Info: Figures/Cifar10.png used on input line 206.
-(pdftex.def)             Requested size: 227.62204pt x 160.90363pt.
- [9] [10 <./Figures/Cifar10.png>] [11] [12]
-
-LaTeX Warning: Citation `Authors18' on page 13 undefined on input line 352.
-
-
-LaTeX Warning: Citation `Authors18b' on page 13 undefined on input line 359.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--393
-
+Overfull \hbox (22.76228pt too wide) in paragraph at lines 91--92
+ [][] 
  []
 
-[13] [14]
-Overfull \hbox (3.8771pt too wide) in paragraph at lines 482--488
-\OT1/cmr/m/n/10 of Col-lage Lan-guages,'' ``On Cor-rect-ing the In-tru-sion of 
-Trac-ing Non-deterministic
+[5] [6 <./Figures/existed_aggr.png>]
+<Figures/VGG-RA.png, id=41, 555.0336pt x 216.81pt>
+File: Figures/VGG-RA.png Graphic file (type png)
+ <use Figures/VGG-RA.png>
+Package pdftex.def Info: Figures/VGG-RA.png used on input line 115.
+(pdftex.def)             Requested size: 312.9803pt x 122.25636pt.
+
+<Figures/ResNet-RA.png, id=42, 561.297pt x 202.356pt>
+File: Figures/ResNet-RA.png Graphic file (type png)
+
+<use Figures/ResNet-RA.png>
+Package pdftex.def Info: Figures/ResNet-RA.png used on input line 123.
+(pdftex.def)             Requested size: 312.9803pt x 112.8369pt.
+ [7 <./Figures/VGG-RA.png>] [8 <./Figures/ResNet-RA.png>] [9] [10] <Figures/cif
+ar10.png, id=59, 427.8384pt x 285.2256pt>
+File: Figures/cifar10.png Graphic file (type png)
+
+<use Figures/cifar10.png>
+Package pdftex.def Info: Figures/cifar10.png used on input line 218.
+(pdftex.def)             Requested size: 227.62204pt x 151.74768pt.
+
+<Figures/cifar100.png, id=61, 427.3566pt x 285.7074pt>
+File: Figures/cifar100.png Graphic file (type png)
+
+<use Figures/cifar100.png>
+Package pdftex.def Info: Figures/cifar100.png used on input line 224.
+(pdftex.def)             Requested size: 227.62204pt x 152.17839pt.
+ <Figures/RA-B.png, id=62, 604.1772pt x 211.0284pt>
+File: Figures/RA-B.png Graphic file (type png)
+
+<use Figures/RA-B.png>
+Package pdftex.def Info: Figures/RA-B.png used on input line 236.
+(pdftex.def)             Requested size: 312.9803pt x 109.32pt.
+ <Figures/RA-C.png, id=63, 569.9694pt x 292.9344pt>
+File: Figures/RA-C.png Graphic file (type png)
+
+<use Figures/RA-C.png>
+Package pdftex.def Info: Figures/RA-C.png used on input line 242.
+(pdftex.def)             Requested size: 312.9803pt x 160.85963pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./Figures/cifar10.png>] [12 <./Figures/cifar100.png> <./Figures/RA-B.png>
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./Figures/RA-C.png>] (./accv2018submission.bbl
+Underfull \hbox (badness 1072) in paragraph at lines 28--31
+[]\OT1/cmr/m/n/9 Yu, F., Wang, D., Dar-rell, T.:  Deep layer ag-gre-ga-tion.  a
+rXiv preprint
  []
 
-<eijkel2.pdf, id=71, 491.8375pt x 399.4925pt>
-File: eijkel2.pdf Graphic file (type pdf)
- <use eijkel2.pdf>
-Package pdftex.def Info: eijkel2.pdf used on input line 524.
-(pdftex.def)             Requested size: 227.69641pt x 184.9429pt.
- [15] [16 <./eijkel2.pdf>]
-
-LaTeX Warning: Citation `Alpher02' on page 17 undefined on input line 619.
-
-
-LaTeX Warning: Citation `Alpher03' on page 17 undefined on input line 619.
-
-
-LaTeX Warning: Citation `Herman04' on page 17 undefined on input line 619.
-
-[17]
-No file accv2018submission.bbl.
-[18] (./accv2018submission.aux) ) 
+[14]) [15] (./accv2018submission.aux) ) 
 Here is how much of TeX's memory you used:
- 2983 strings out of 493014
- 38520 string characters out of 6137000
- 116090 words of memory out of 5000000
- 6467 multiletter control sequences out of 15000+600000
- 12037 words of font info for 46 fonts, out of 8000000 for 9000
+ 3115 strings out of 493014
+ 40444 string characters out of 6137000
+ 117147 words of memory out of 5000000
+ 6588 multiletter control sequences out of 15000+600000
+ 11524 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,29p,1892b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-<g:/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9
-.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><g:/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><g:/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi9.pfb><g:/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><g:/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><g:/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><g:/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss9.pfb><g:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy7.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9
-.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on accv2018submission.pdf (18 pages, 373988 bytes).
+ 38i,10n,26p,1894b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+<g:/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx9.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><g:/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><g:/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr9.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmss10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmss8.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
+><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><g:/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><g:/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb><g:/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb>
+Output written on accv2018submission.pdf (15 pages, 446662 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 138 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

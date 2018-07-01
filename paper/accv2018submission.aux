@@ -1,66 +1,94 @@
 \relax 
-\@writefile{toc}{\contentsline {title}{Convolutional Layer Aggregation using LSTM}{1}}
+\citation{imagenet}
+\citation{lenet}
+\citation{densenet}
+\citation{resnet}
+\citation{densenet}
+\citation{dla}
+\citation{rnn}
+\citation{lstm}
+\@writefile{toc}{\contentsline {title}{Recurrent Layer Aggregation using LSTM}{1}}
 \@writefile{toc}{\contentsline {author}{Yu Qin}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{dla}
+\citation{vgg}
+\citation{resnet}
+\citation{lenet}
+\citation{alexnet}
+\citation{imagenet}
+\citation{vgg}
+\citation{resnet}
+\citation{densenet}
+\citation{cliquenet}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Structure of CNN-RA}}{3}}
-\newlabel{fig:CNN-RA}{{1}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Convolutional Feature Mapping}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Recurrent Aggregation using LSTM}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Different approaches to aggregation. (a) composes blocks without aggregation as is the default for classification and regression networks. (b) combines parts of the network with skip connections, as is commonly used for tasks like segmentation and detection, but does so only shallowly by merging earlier parts in a single step each. }}{4}}
-\newlabel{fig:exited_aggr}{{2}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Exemplars: VGG-RA and ResNet-RA}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Structure of CNN-RA}}{6}}
-\newlabel{fig:VGG-RA}{{3}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Structure of CNN-RA}}{6}}
-\newlabel{fig:ResNet-RA}{{4}{6}}
+\citation{rnn}
+\citation{text_rnn}
+\citation{speech_rnn}
+\citation{video_rnn}
+\citation{lstm}
+\citation{blstm}
+\citation{FCN}
+\citation{FPN}
+\citation{U-Net}
+\citation{dla}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Structure of CNN-RA}}{4}}
+\newlabel{fig:CNN-RA}{{1}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Convolutional Feature Mapping}{4}}
+\citation{dla}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Recurrent Aggregation using LSTM}{5}}
+\citation{ReLU}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Different existing approaches to aggregation. (a)default classification and regression networks without aggregation. (b)shallow linear combination of all layers by skip connection. (c)iterative deep aggregation to better aggregate shallow layers. (d)hierarchical deep aggregation to better preserve previous features.}}{6}}
+\newlabel{fig:exited_aggr}{{2}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Exemplars: VGG-RA and ResNet-RA}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Structure of VGG-RA}}{7}}
+\newlabel{fig:VGG-RA}{{3}{7}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Training Details}{7}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Feature selection}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Feature Mapping}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Implementation Details}{7}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  Network parameters of network re-implementation and aggregation. }}{8}}
-\newlabel{table:struc}{{1}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Classification with RA-LSTM}{8}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Validation accuracies on three datasets. The number in parenthesis represents the improvements of network with RA-LSTM over the original network.}}{9}}
-\newlabel{table:test}{{2}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Structure of CNN-RA}}{10}}
-\newlabel{fig:Cifar10}{{5}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}More Explorations}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Paper formatting}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Language}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Structure of CNN-RA}}{11}}
-\newlabel{fig:Cifar100}{{6}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Paper Length}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Paper ID}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Dual Submission}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}Supplemental Material}{12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}Line Numbering}{12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.7}Mathematics}{12}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Blind Review}{12}}
-\newlabel{sec:blind}{{8}{12}}
-\citation{Authors18}
-\citation{Authors18b}
-\@writefile{toc}{\contentsline {section}{\numberline {9}Manuscript Preparation}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Printing Area}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Layout, Typeface, Font Sizes, and Numbering}{14}}
-\@writefile{toc}{\contentsline {subsubsection}{Headings.}{15}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces  Font sizes of headings. Table captions should always be positioned {\it  above} the tables. A table caption ends with a full stop. }}{15}}
-\newlabel{table:headings}{{3}{15}}
-\@writefile{toc}{\contentsline {subsubsection}{Lemmas, Propositions, and Theorems.}{15}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Figures and Photographs}{15}}
-\newlabel{sect:figures}{{9.3}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces One kernel at $x_s$ ({\it  dotted kernel}) or two kernels at $x_i$ and $x_j$ ({\it  left and right}) lead to the same summed estimate at $x_s$. This shows a figure consisting of different types of lines. Elements of the figure described in the caption should be set in italics, in parentheses, as shown in this sample caption. The last sentence of a figure caption should generally end without a full stop}}{16}}
-\newlabel{fig:example}{{7}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Formulas}{16}}
-\newlabel{equ:dt}{{4}{16}}
-\citation{Alpher02}
-\citation{Alpher03,Herman04}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Program Code}{17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}Footnotes}{17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.7}Citations}{17}}
+\citation{cifar}
+\citation{SVHN}
+\citation{cifar}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Structure of ResNet-RA}}{8}}
+\newlabel{fig:ResNet-RA}{{4}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Feature Mapping}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Implementation Details}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  Network parameters of re-implementation and aggregation. GAP denotes global average pooling. }}{9}}
+\newlabel{table:struc}{{1}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Classification with RA-LSTM}{9}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Validation accuracies on three datasets. The number in parenthesis represents the improvements of network with RA-LSTM over the original network.}}{10}}
+\newlabel{table:test}{{2}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Testing Accuracy on Cifar10}}{11}}
+\newlabel{fig:Cifar10}{{5}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Testing Accuracy on Cifar100}}{12}}
+\newlabel{fig:Cifar100}{{6}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}More Explorations}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Structure of CNN-RA-B}}{12}}
+\newlabel{fig:CNN-RA-B}{{7}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Structure of CNN-RA-C}}{13}}
+\newlabel{fig:CNN-RA-C}{{8}{13}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Validation accuracies of ResNet, ResNet-RA, ResNet-RA-B and ResNet-RA-C over three datasets.}}{13}}
+\newlabel{table:RA-B-C}{{3}{13}}
 \bibstyle{splncs}
 \bibdata{egbib}
-\@writefile{toc}{\contentsline {section}{\numberline {10}Conclusions}{18}}
+\bibcite{imagenet}{1}
+\bibcite{lenet}{2}
+\bibcite{densenet}{3}
+\bibcite{resnet}{4}
+\bibcite{dla}{5}
+\bibcite{rnn}{6}
+\bibcite{lstm}{7}
+\bibcite{vgg}{8}
+\bibcite{alexnet}{9}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{14}}
+\bibcite{cliquenet}{10}
+\bibcite{text_rnn}{11}
+\bibcite{speech_rnn}{12}
+\bibcite{video_rnn}{13}
+\bibcite{blstm}{14}
+\bibcite{FCN}{15}
+\bibcite{FPN}{16}
+\bibcite{U-Net}{17}
+\bibcite{ReLU}{18}
+\bibcite{cifar}{19}
+\bibcite{SVHN}{20}
