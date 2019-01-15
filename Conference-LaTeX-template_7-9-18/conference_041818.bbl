@@ -1,0 +1,127 @@
+\begin{thebibliography}{10}
+
+\bibitem{imagenet}
+Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
+  Karpathy, A., Khosla, A., Bernstein, M.,  et~al.:
+\newblock Imagenet large scale visual recognition challenge.
+\newblock International Journal of Computer Vision \textbf{115} (2015)
+  211--252
+
+\bibitem{faster-r-cnn}
+Zhang, L., Lin, L., Liang, X., He, K.:
+\newblock Is faster r-cnn doing well for pedestrian detection?
+\newblock In: European Conference on Computer Vision, Springer (2016)  443--457
+
+\bibitem{refinenet}
+Lin, G., Milan, A., Shen, C., Reid, I.:
+\newblock Refinenet: Multi-path refinement networks for high-resolution
+  semantic segmentation.
+\newblock In: IEEE conference on computer vision and pattern recognition
+  (CVPR). Volume~1. (2017) ~3
+
+\bibitem{lenet}
+LeCun, Y., Bottou, L., Bengio, Y., Haffner, P.:
+\newblock Gradient-based learning applied to document recognition.
+\newblock Proceedings of the IEEE \textbf{86} (1998)  2278--2324
+
+\bibitem{alexnet}
+Krizhevsky, A., Sutskever, I., Hinton, G.E.:
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In: Advances in neural information processing systems. (2012)
+  1097--1105
+
+\bibitem{resnet}
+He, K., Zhang, X., Ren, S., Sun, J.:
+\newblock Deep residual learning for image recognition.
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition. (2016)  770--778
+
+\bibitem{densenet}
+Huang, G., Liu, Z., Weinberger, K.Q., van~der Maaten, L.:
+\newblock Densely connected convolutional networks.
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition. Volume~1. (2017) ~3
+
+\bibitem{dla}
+Yu, F., Wang, D., Darrell, T.:
+\newblock Deep layer aggregation.
+\newblock arXiv preprint arXiv:1707.06484 (2017)
+
+\bibitem{rnn}
+Sutskever, I.:
+\newblock Training recurrent neural networks.
+\newblock University of Toronto, Ontario, Canada (2013)
+
+\bibitem{lstm}
+Gers, F.A., Schmidhuber, J., Cummins, F.:
+\newblock Learning to forget: Continual prediction with lstm.
+\newblock (1999)
+
+\bibitem{vgg}
+Simonyan, K., Zisserman, A.:
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock arXiv preprint arXiv:1409.1556 (2014)
+
+\bibitem{cliquenet}
+Yang, Y., Zhong, Z., Shen, T., Lin, Z.:
+\newblock Convolutional neural networks with alternately updated clique.
+\newblock In: Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition. (2018)  2413--2422
+
+\bibitem{text_rnn}
+Su, B., Lu, S.:
+\newblock Accurate scene text recognition based on recurrent neural network.
+\newblock In: Asian Conference on Computer Vision, Springer (2014)  35--48
+
+\bibitem{speech_rnn}
+Graves, A., Mohamed, A.r., Hinton, G.:
+\newblock Speech recognition with deep recurrent neural networks.
+\newblock In: Acoustics, speech and signal processing (icassp), 2013 ieee
+  international conference on, IEEE (2013)  6645--6649
+
+\bibitem{video_rnn}
+Baccouche, M., Mamalet, F., Wolf, C., Garcia, C., Baskurt, A.:
+\newblock Sequential deep learning for human action recognition.
+\newblock In: International Workshop on Human Behavior Understanding, Springer
+  (2011)  29--39
+
+\bibitem{blstm}
+Huang, Z., Xu, W., Yu, K.:
+\newblock Bidirectional lstm-crf models for sequence tagging.
+\newblock arXiv preprint arXiv:1508.01991 (2015)
+
+\bibitem{FCN}
+Long, J., Shelhamer, E., Darrell, T.:
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition. (2015)  3431--3440
+
+\bibitem{FPN}
+Lin, T.Y., Doll{\'a}r, P., Girshick, R., He, K., Hariharan, B., Belongie, S.:
+\newblock Feature pyramid networks for object detection.
+\newblock In: CVPR. Volume~1. (2017) ~4
+
+\bibitem{U-Net}
+Ronneberger, O., Fischer, P., Brox, T.:
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock In: International Conference on Medical image computing and
+  computer-assisted intervention, Springer (2015)  234--241
+
+\bibitem{ReLU}
+Nair, V., Hinton, G.E.:
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In: Proceedings of the 27th international conference on machine
+  learning (ICML-10). (2010)  807--814
+
+\bibitem{cifar}
+Krizhevsky, A., Hinton, G.:
+\newblock Learning multiple layers of features from tiny images.
+\newblock Technical report, Citeseer (2009)
+
+\bibitem{SVHN}
+Netzer, Y., Wang, T., Coates, A., Bissacco, A., Wu, B., Ng, A.Y.:
+\newblock Reading digits in natural images with unsupervised feature learning.
+\newblock In: NIPS workshop on deep learning and unsupervised feature learning.
+  Volume 2011. (2011) ~5
+
+\end{thebibliography}

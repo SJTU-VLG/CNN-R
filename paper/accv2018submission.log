@@ -1,41 +1,40 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.29)  5 JUL 2018 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.8.20)  15 JAN 2019 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./accv2018submission.tex
+**accv2018submission.tex
 (./accv2018submission.tex
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+LaTeX2e <2018-04-01> patch level 5
 (./llncs.cls
 Document Class: llncs 2002/01/28 v2.13 
  LaTeX document class for Lecture Notes in Computer Science
-(g:/texlive/2016/texmf-dist/tex/latex/base/article.cls
+(d:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(g:/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+(d:/texlive/2018/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(g:/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count87
+(d:/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
+\c@tracingmulticols=\count88
 \mult@box=\box26
 \multicol@leftmargin=\dimen103
-\c@unbalance=\count88
-\c@collectmore=\count89
-\doublecol@number=\count90
-\multicoltolerance=\count91
-\multicolpretolerance=\count92
+\c@unbalance=\count89
+\c@collectmore=\count90
+\doublecol@number=\count91
+\multicoltolerance=\count92
+\multicolpretolerance=\count93
 \full@width=\dimen104
 \page@free=\dimen105
 \premulticols=\dimen106
@@ -66,16 +65,16 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count93
-\c@finalcolumnbadness=\count94
+\c@columnbadness=\count94
+\c@finalcolumnbadness=\count95
 \last@try=\dimen109
 \multicolovershoot=\dimen110
 \multicolundershoot=\dimen111
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\mc@col@check@num=\count95
+\mc@col@check@num=\count96
 )
-\c@chapter=\count96
+\c@chapter=\count97
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 360.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 361.
 LaTeX Font Info:    Redeclaring math symbol \Theta on input line 362.
@@ -97,11 +96,11 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 370.
 \tocparanum=\dimen119
 \tocparatotal=\dimen120
 \tocsubparanum=\dimen121
-\@tempcntc=\count97
+\@tempcntc=\count98
 \fnindent=\dimen122
-\c@@inst=\count98
-\c@@auth=\count99
-\c@auco=\count100
+\c@@inst=\count99
+\c@@auth=\count100
+\c@auco=\count101
 \instindent=\dimen123
 \authrun=\box52
 \authorrunning=\toks14
@@ -109,90 +108,82 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 370.
 \titrun=\box53
 \titlerunning=\toks16
 \toctitle=\toks17
-\c@theorem=\count101
-\c@case=\count102
-\c@conjecture=\count103
-\c@corollary=\count104
-\c@definition=\count105
-\c@example=\count106
-\c@exercise=\count107
-\c@lemma=\count108
-\c@note=\count109
-\c@problem=\count110
-\c@property=\count111
-\c@proposition=\count112
-\c@question=\count113
-\c@solution=\count114
-\c@remark=\count115
+\c@theorem=\count102
+\c@case=\count103
+\c@conjecture=\count104
+\c@corollary=\count105
+\c@definition=\count106
+\c@example=\count107
+\c@exercise=\count108
+\c@lemma=\count109
+\c@note=\count110
+\c@problem=\count111
+\c@property=\count112
+\c@proposition=\count113
+\c@question=\count114
+\c@solution=\count115
+\c@remark=\count116
 \headlineindent=\dimen124
 )
-(g:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(d:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(g:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+(d:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(g:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+(d:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(g:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+(d:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(g:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+(d:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 96.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(g:/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(g:/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(g:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count116
+(d:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-(g:/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/10 v2.15b AMS math features
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(g:/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(g:/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen127
 ))
-(g:/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen128
 )
-(g:/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count117
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count118
 \leftroot@=\count119
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count120
 \DOTSCASE@=\count121
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box54
 \strutbox@=\box55
 \big@size=\dimen129
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 
 
 Package amsmath Warning: Unable to redefine math accent \vec.
@@ -217,12 +208,12 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 \multlinegap=\skip46
 \multlinetaggap=\skip47
 \mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
-) (g:/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (d:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(g:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(d:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -251,18 +242,22 @@ Package: cvpr_eso 2011/12/13 v1.00 CVPR ESO based on everyshi
 \cv@tot=\count132
 \cv@tmpc@=\count133
 \cv@tmpc=\count134
-) (g:/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+) (d:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(g:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(d:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 144.
+Package color Info: Driver file: pdftex.def on input line 147.
 )
-(g:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+(d:/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip48
+\multirow@cntb=\count135
+\multirow@dima=\skip49
 \bigstrutjot=\dimen139
 )
-(g:/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
+(d:/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
@@ -281,177 +276,369 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
-(g:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(d:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
+\scratchcounter=\count136
 \scratchdimen=\dimen140
 \scratchbox=\box58
-\nofMPsegments=\count136
-\nofMParguments=\count137
+\nofMPsegments=\count137
+\nofMParguments=\count138
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count138
+\MPscratchCnt=\count139
 \MPscratchDim=\dimen141
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks25
-) (g:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (d:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(g:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(d:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(d:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(g:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(g:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(g:/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(g:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(g:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(g:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(g:/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(g:/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(d:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
-(g:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+(d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
-(g:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+(d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{g:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+)
+
+LaTeX Warning: Citation `imagenet' on page 1 undefined on input line 36.
+
+
+LaTeX Warning: Citation `faster-r-cnn' on page 1 undefined on input line 36.
+
+
+LaTeX Warning: Citation `refinenet' on page 1 undefined on input line 36.
+
+
+LaTeX Warning: Citation `lenet' on page 1 undefined on input line 36.
+
+
+LaTeX Warning: Citation `alexnet' on page 1 undefined on input line 36.
+
+
+LaTeX Warning: Citation `resnet' on page 1 undefined on input line 36.
+
+
+LaTeX Warning: Citation `densenet' on page 1 undefined on input line 36.
+
+
+LaTeX Warning: Citation `resnet' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `densenet' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `dla' on page 1 undefined on input line 38.
+
+[1{d:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
+
+LaTeX Warning: Citation `rnn' on page 2 undefined on input line 40.
+
+
+LaTeX Warning: Citation `lstm' on page 2 undefined on input line 40.
+
+
+LaTeX Warning: Citation `dla' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `vgg' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation `resnet' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation `lenet' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation `alexnet' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation `imagenet' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation `vgg' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation `resnet' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation `densenet' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation `cliquenet' on page 2 undefined on input line 55.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-[3] <Figures/CNN-RA.png, id=20, 555.0336pt x 308.8338pt>
-File: Figures/CNN-RA.png Graphic file (type png)
 
+LaTeX Warning: Citation `rnn' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation `text_rnn' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation `speech_rnn' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation `video_rnn' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation `lstm' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation `blstm' on page 3 undefined on input line 57.
+
+
+LaTeX Warning: Citation `FCN' on page 3 undefined on input line 59.
+
+
+LaTeX Warning: Citation `FPN' on page 3 undefined on input line 59.
+
+
+LaTeX Warning: Citation `U-Net' on page 3 undefined on input line 59.
+
+
+LaTeX Warning: Citation `dla' on page 3 undefined on input line 59.
+
+
+LaTeX Warning: Reference `fig:CNN-RA' on page 3 undefined on input line 62.
+
+[3]
+<Figures/CNN-RA.png, id=21, 555.0336pt x 308.8338pt>
+File: Figures/CNN-RA.png Graphic file (type png)
 <use Figures/CNN-RA.png>
-Package pdftex.def Info: Figures/CNN-RA.png used on input line 68.
+Package pdftex.def Info: Figures/CNN-RA.png  used on input line 68.
 (pdftex.def)             Requested size: 341.43306pt x 189.98112pt.
  [4 <./Figures/CNN-RA.png>]
+
+LaTeX Warning: Reference `fig:CNN-RA' on page 5 undefined on input line 89.
+
 <Figures/existed_aggr.png, id=26, 925.056pt x 531.9072pt>
 File: Figures/existed_aggr.png Graphic file (type png)
-
 <use Figures/existed_aggr.png>
-Package pdftex.def Info: Figures/existed_aggr.png used on input line 92.
+Package pdftex.def Info: Figures/existed_aggr.png  used on input line 92.
 (pdftex.def)             Requested size: 369.88582pt x 212.68605pt.
 
 Overfull \hbox (22.76228pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
-[5] [6 <./Figures/existed_aggr.png>]
+
+LaTeX Warning: Reference `fig:exited_aggr' on page 5 undefined on input line 96
+.
+
+
+LaTeX Warning: Citation `dla' on page 5 undefined on input line 96.
+
+
+LaTeX Warning: Reference `fig:exited_aggr' on page 5 undefined on input line 96
+.
+
+
+LaTeX Warning: Reference `fig:exited_aggr' on page 5 undefined on input line 96
+.
+
+[5]
+
+LaTeX Warning: Citation `ReLU' on page 6 undefined on input line 108.
+
+[6 <./Figures/existed_aggr.png>]
+
+LaTeX Warning: Reference `fig:VGG-RA' on page 7 undefined on input line 113.
+
 <Figures/VGG-RA.png, id=41, 555.0336pt x 216.81pt>
 File: Figures/VGG-RA.png Graphic file (type png)
- <use Figures/VGG-RA.png>
-Package pdftex.def Info: Figures/VGG-RA.png used on input line 116.
+<use Figures/VGG-RA.png>
+Package pdftex.def Info: Figures/VGG-RA.png  used on input line 116.
 (pdftex.def)             Requested size: 312.9803pt x 122.25636pt.
+
+LaTeX Warning: Reference `fig:ResNet-RA' on page 7 undefined on input line 121.
+
 
 <Figures/ResNet-RA.png, id=42, 561.297pt x 202.356pt>
 File: Figures/ResNet-RA.png Graphic file (type png)
-
 <use Figures/ResNet-RA.png>
-Package pdftex.def Info: Figures/ResNet-RA.png used on input line 124.
+Package pdftex.def Info: Figures/ResNet-RA.png  used on input line 124.
 (pdftex.def)             Requested size: 312.9803pt x 112.8369pt.
- [7 <./Figures/VGG-RA.png>] [8 <./Figures/ResNet-RA.png>]
+
+LaTeX Warning: Reference `table:struc' on page 7 undefined on input line 131.
+
+[7 <./Figures/VGG-RA.png>]
+
+LaTeX Warning: Citation `cifar' on page 8 undefined on input line 140.
+
+
+LaTeX Warning: Citation `SVHN' on page 8 undefined on input line 140.
+
+
+LaTeX Warning: Citation `cifar' on page 8 undefined on input line 140.
+
+[8 <./Figures/ResNet-RA.png>]
+
+LaTeX Warning: Reference `table:struc' on page 9 undefined on input line 144.
+
+
+LaTeX Warning: Reference `table:struc' on page 9 undefined on input line 187.
+
+
+LaTeX Warning: Reference `table:test' on page 9 undefined on input line 187.
+
+
 Underfull \vbox (badness 3679) has occurred while \output is active []
 
  [9]
-[10] <Figures/cifar10.png, id=59, 427.8384pt x 285.2256pt>
+
+LaTeX Warning: Reference `table:test' on page 10 undefined on input line 189.
+
+
+LaTeX Warning: Reference `table:test' on page 10 undefined on input line 213.
+
+[10]
+<Figures/cifar10.png, id=59, 427.8384pt x 285.2256pt>
 File: Figures/cifar10.png Graphic file (type png)
-
 <use Figures/cifar10.png>
-Package pdftex.def Info: Figures/cifar10.png used on input line 219.
+Package pdftex.def Info: Figures/cifar10.png  used on input line 219.
 (pdftex.def)             Requested size: 227.62204pt x 151.74768pt.
-
 <Figures/cifar100.png, id=61, 427.3566pt x 285.7074pt>
 File: Figures/cifar100.png Graphic file (type png)
-
 <use Figures/cifar100.png>
-Package pdftex.def Info: Figures/cifar100.png used on input line 225.
+Package pdftex.def Info: Figures/cifar100.png  used on input line 225.
 (pdftex.def)             Requested size: 227.62204pt x 152.17839pt.
- [11 <./Figures/cifar10.png>]
+
+
+LaTeX Warning: Reference `fig:Cifar10' on page 11 undefined on input line 230.
+
+
+LaTeX Warning: Reference `fig:Cifar100' on page 11 undefined on input line 230.
+
+
+[11 <./Figures/Cifar10.png>]
 <Figures/RA-B.png, id=66, 604.1772pt x 211.0284pt>
 File: Figures/RA-B.png Graphic file (type png)
- <use Figures/RA-B.png>
-Package pdftex.def Info: Figures/RA-B.png used on input line 237.
+<use Figures/RA-B.png>
+Package pdftex.def Info: Figures/RA-B.png  used on input line 237.
 (pdftex.def)             Requested size: 312.9803pt x 109.32pt.
-
 <Figures/RA-C.png, id=67, 569.9694pt x 292.9344pt>
 File: Figures/RA-C.png Graphic file (type png)
- <use Figures/RA-C.png>
-Package pdftex.def Info: Figures/RA-C.png used on input line 243.
+<use Figures/RA-C.png>
+Package pdftex.def Info: Figures/RA-C.png  used on input line 243.
 (pdftex.def)             Requested size: 312.9803pt x 160.85963pt.
 
-[12 <./Figures/cifar100.png> <./Figures/RA-B.png>] [13 <./Figures/RA-C.png>]
-[14] (./accv2018submission.bbl
+
+LaTeX Warning: Reference `fig:CNN-RA' on page 12 undefined on input line 248.
+
+
+LaTeX Warning: Reference `fig:CNN-RA-B' on page 12 undefined on input line 248.
+
+
+
+LaTeX Warning: Reference `fig:CNN-RA-C' on page 12 undefined on input line 248.
+
+
+[12 <./Figures/cifar100.png> <./Figures/RA-B.png>]
+
+LaTeX Warning: Reference `table:RA-B-C' on page 13 undefined on input line 251.
+
+
+[13 <./Figures/RA-C.png>] [14] (./accv2018submission.bbl
 Underfull \hbox (badness 1072) in paragraph at lines 46--49
 []\OT1/cmr/m/n/9 Yu, F., Wang, D., Dar-rell, T.:  Deep layer ag-gre-ga-tion.  a
 rXiv preprint
  []
 
-[15]) [16] (./accv2018submission.aux) ) 
+[15]) [16] (./accv2018submission.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3117 strings out of 493014
- 40469 string characters out of 6137000
- 118155 words of memory out of 5000000
- 6590 multiletter control sequences out of 15000+600000
+ 3108 strings out of 492642
+ 40383 string characters out of 6133162
+ 121635 words of memory out of 5000000
+ 6925 multiletter control sequences out of 15000+600000
  11524 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,29p,1900b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
-<g:/texlive/2016/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx9.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><g:/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr7.pfb><g:/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr9.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmss10.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss8.pfb><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
-><g:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><g:/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><g:/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti10.pfb><g:/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/symbols/msbm10.pfb>
-Output written on accv2018submission.pdf (16 pages, 450690 bytes).
+ 41i,10n,29p,1898b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><d:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss9.pfb><d:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy9.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
+.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+>
+Output written on accv2018submission.pdf (16 pages, 445078 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
