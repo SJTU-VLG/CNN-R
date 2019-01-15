@@ -3,49 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: accv2018submission.aux
 The style file: splncs.bst
 Database file #1: egbib.bib
+Warning--can't use both volume and number fields in refinenet
 Warning--can't use both volume and number fields in densenet
 Warning--empty journal in lstm
 Warning--can't use both volume and number fields in FPN
 Warning--can't use both volume and number fields in SVHN
-You've used 20 entries,
+You've used 22 entries,
             2043 wiz_defined-function locations,
-            593 strings with 7143 characters,
-and the built_in function-call counts, 6481 in all, are:
-= -- 646
-> -- 261
-< -- 17
-+ -- 94
-- -- 74
-* -- 423
-:= -- 855
-add.period$ -- 31
-call.type$ -- 20
-change.case$ -- 20
+            602 strings with 7528 characters,
+and the built_in function-call counts, 7188 in all, are:
+= -- 716
+> -- 289
+< -- 20
++ -- 104
+- -- 82
+* -- 472
+:= -- 945
+add.period$ -- 35
+call.type$ -- 22
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 348
-empty$ -- 621
-format.name$ -- 74
-if$ -- 1591
+cite$ -- 27
+duplicate$ -- 386
+empty$ -- 692
+format.name$ -- 82
+if$ -- 1769
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 20
-newline$ -- 103
-num.names$ -- 20
-pop$ -- 98
+int.to.str$ -- 22
+missing$ -- 22
+newline$ -- 113
+num.names$ -- 22
+pop$ -- 109
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 242
+skip$ -- 268
 stack$ -- 0
-substring$ -- 382
-swap$ -- 172
-text.length$ -- 17
+substring$ -- 416
+swap$ -- 192
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 56
-width$ -- 22
-write$ -- 225
-(There were 4 warnings)
+warning$ -- 5
+while$ -- 62
+width$ -- 24
+write$ -- 249
+(There were 5 warnings)

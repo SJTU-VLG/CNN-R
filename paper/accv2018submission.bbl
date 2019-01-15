@@ -7,22 +7,40 @@ Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
 \newblock International Journal of Computer Vision \textbf{115} (2015)
   211--252
 
+\bibitem{faster-r-cnn}
+Zhang, L., Lin, L., Liang, X., He, K.:
+\newblock Is faster r-cnn doing well for pedestrian detection?
+\newblock In: European Conference on Computer Vision, Springer (2016)  443--457
+
+\bibitem{refinenet}
+Lin, G., Milan, A., Shen, C., Reid, I.:
+\newblock Refinenet: Multi-path refinement networks for high-resolution
+  semantic segmentation.
+\newblock In: IEEE conference on computer vision and pattern recognition
+  (CVPR). Volume~1. (2017) ~3
+
 \bibitem{lenet}
 LeCun, Y., Bottou, L., Bengio, Y., Haffner, P.:
 \newblock Gradient-based learning applied to document recognition.
 \newblock Proceedings of the IEEE \textbf{86} (1998)  2278--2324
 
-\bibitem{densenet}
-Huang, G., Liu, Z., Weinberger, K.Q., van~der Maaten, L.:
-\newblock Densely connected convolutional networks.
-\newblock In: Proceedings of the IEEE conference on computer vision and pattern
-  recognition. Volume~1. (2017) ~3
+\bibitem{alexnet}
+Krizhevsky, A., Sutskever, I., Hinton, G.E.:
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In: Advances in neural information processing systems. (2012)
+  1097--1105
 
 \bibitem{resnet}
 He, K., Zhang, X., Ren, S., Sun, J.:
 \newblock Deep residual learning for image recognition.
 \newblock In: Proceedings of the IEEE conference on computer vision and pattern
   recognition. (2016)  770--778
+
+\bibitem{densenet}
+Huang, G., Liu, Z., Weinberger, K.Q., van~der Maaten, L.:
+\newblock Densely connected convolutional networks.
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition. Volume~1. (2017) ~3
 
 \bibitem{dla}
 Yu, F., Wang, D., Darrell, T.:
@@ -32,7 +50,7 @@ Yu, F., Wang, D., Darrell, T.:
 \bibitem{rnn}
 Sutskever, I.:
 \newblock Training recurrent neural networks.
-\newblock University of Toronto Toronto, Ontario, Canada (2013)
+\newblock University of Toronto, Ontario, Canada (2013)
 
 \bibitem{lstm}
 Gers, F.A., Schmidhuber, J., Cummins, F.:
@@ -43,12 +61,6 @@ Gers, F.A., Schmidhuber, J., Cummins, F.:
 Simonyan, K., Zisserman, A.:
 \newblock Very deep convolutional networks for large-scale image recognition.
 \newblock arXiv preprint arXiv:1409.1556 (2014)
-
-\bibitem{alexnet}
-Krizhevsky, A., Sutskever, I., Hinton, G.E.:
-\newblock Imagenet classification with deep convolutional neural networks.
-\newblock In: Advances in neural information processing systems. (2012)
-  1097--1105
 
 \bibitem{cliquenet}
 Yang, Y., Zhong, Z., Shen, T., Lin, Z.:

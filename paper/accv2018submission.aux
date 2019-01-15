@@ -1,15 +1,19 @@
 \relax 
 \citation{imagenet}
+\citation{faster-r-cnn}
+\citation{refinenet}
 \citation{lenet}
+\citation{alexnet}
+\citation{resnet}
 \citation{densenet}
 \citation{resnet}
 \citation{densenet}
 \citation{dla}
+\@writefile{toc}{\contentsline {title}{ Recurrent Aggregation of Convolutional Neural Network}{1}}
+\@writefile{toc}{\contentsline {author}{Anonymous ACCV 2018 submission}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
 \citation{rnn}
 \citation{lstm}
-\@writefile{toc}{\contentsline {title}{Recurrent Layer Aggregation using LSTM}{1}}
-\@writefile{toc}{\contentsline {author}{Yu Qin}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
 \citation{dla}
 \citation{vgg}
 \citation{resnet}
@@ -20,7 +24,6 @@
 \citation{resnet}
 \citation{densenet}
 \citation{cliquenet}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}}
 \citation{rnn}
 \citation{text_rnn}
 \citation{speech_rnn}
@@ -31,6 +34,7 @@
 \citation{FPN}
 \citation{U-Net}
 \citation{dla}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Structure of CNN-RA}}{4}}
 \newlabel{fig:CNN-RA}{{1}{4}}
@@ -40,7 +44,7 @@
 \citation{ReLU}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Different existing approaches to aggregation. (a)default classification and regression networks without aggregation. (b)shallow linear combination of all layers by skip connection. (c)iterative deep aggregation to better aggregate shallow layers. (d)hierarchical deep aggregation to better preserve previous features.}}{6}}
 \newlabel{fig:exited_aggr}{{2}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Exemplars: VGG-RA and ResNet-RA}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Examples: VGG-RA and ResNet-RA}{7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Structure of VGG-RA}}{7}}
 \newlabel{fig:VGG-RA}{{3}{7}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Training Details}{7}}
@@ -51,12 +55,12 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Structure of ResNet-RA}}{8}}
 \newlabel{fig:ResNet-RA}{{4}{8}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Feature Mapping}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Implementation Details}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Implementation Details}{9}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  Network parameters of re-implementation and aggregation. GAP denotes global average pooling. }}{9}}
 \newlabel{table:struc}{{1}{9}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Classification with RA-LSTM}{9}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Validation accuracies on three datasets. The number in parenthesis represents the improvements of network with RA-LSTM over the original network.}}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Classification with CNN-RA}{10}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Validation accuracies on three datasets. The number in parenthesis represents the improvements of network with CNN-RA over the original network.}}{10}}
 \newlabel{table:test}{{2}{10}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Testing Accuracy on Cifar10}}{11}}
 \newlabel{fig:Cifar10}{{5}{11}}
@@ -67,28 +71,30 @@
 \newlabel{fig:CNN-RA-B}{{7}{12}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Structure of CNN-RA-C}}{13}}
 \newlabel{fig:CNN-RA-C}{{8}{13}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Validation accuracies of ResNet, ResNet-RA, ResNet-RA-B and ResNet-RA-C over three datasets.}}{13}}
-\newlabel{table:RA-B-C}{{3}{13}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Validation accuracies of ResNet, ResNet-RA, ResNet-RA-B and ResNet-RA-C over three datasets.}}{14}}
+\newlabel{table:RA-B-C}{{3}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{14}}
 \bibstyle{splncs}
 \bibdata{egbib}
 \bibcite{imagenet}{1}
-\bibcite{lenet}{2}
-\bibcite{densenet}{3}
-\bibcite{resnet}{4}
-\bibcite{dla}{5}
-\bibcite{rnn}{6}
-\bibcite{lstm}{7}
-\bibcite{vgg}{8}
-\bibcite{alexnet}{9}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{14}}
-\bibcite{cliquenet}{10}
-\bibcite{text_rnn}{11}
-\bibcite{speech_rnn}{12}
-\bibcite{video_rnn}{13}
-\bibcite{blstm}{14}
-\bibcite{FCN}{15}
-\bibcite{FPN}{16}
-\bibcite{U-Net}{17}
-\bibcite{ReLU}{18}
-\bibcite{cifar}{19}
-\bibcite{SVHN}{20}
+\bibcite{faster-r-cnn}{2}
+\bibcite{refinenet}{3}
+\bibcite{lenet}{4}
+\bibcite{alexnet}{5}
+\bibcite{resnet}{6}
+\bibcite{densenet}{7}
+\bibcite{dla}{8}
+\bibcite{rnn}{9}
+\bibcite{lstm}{10}
+\bibcite{vgg}{11}
+\bibcite{cliquenet}{12}
+\bibcite{text_rnn}{13}
+\bibcite{speech_rnn}{14}
+\bibcite{video_rnn}{15}
+\bibcite{blstm}{16}
+\bibcite{FCN}{17}
+\bibcite{FPN}{18}
+\bibcite{U-Net}{19}
+\bibcite{ReLU}{20}
+\bibcite{cifar}{21}
+\bibcite{SVHN}{22}
