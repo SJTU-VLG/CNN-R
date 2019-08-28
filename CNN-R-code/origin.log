@@ -1,0 +1,122 @@
+/home/duke/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From train.py:32: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See @{tf.nn.softmax_cross_entropy_with_logits_v2}.
+
+2018-05-14 08:07:10.602578: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-05-14 08:07:11.676617: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-14 08:07:11.676964: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:01:00.0
+totalMemory: 11.78GiB freeMemory: 11.36GiB
+2018-05-14 08:07:11.676977: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
+2018-05-14 08:07:11.843887: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-05-14 08:07:11.843918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
+2018-05-14 08:07:11.843924: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
+2018-05-14 08:07:11.844064: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10984 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:01:00.0, compute capability: 7.0)
+Init variable!
+start training!
+2018-05-14 08:08:24.979939 Iter 1000: Training Loss = 1.1035, Accuracy = 0.6250
+2018-05-14 08:09:34.812444 Iter 2000: Training Loss = 0.8745, Accuracy = 0.6875
+2018-05-14 08:10:43.459836 Iter 3000: Training Loss = 0.5826, Accuracy = 0.8359
+2018-05-14 08:11:55.998458 Iter 4000: Testing Accuracy = 0.7326
+2018-05-14 08:11:56.031299 Iter 4000: Training Loss = 0.5132, Accuracy = 0.8438
+2018-05-14 08:13:04.667871 Iter 5000: Training Loss = 0.4223, Accuracy = 0.8594
+2018-05-14 08:14:14.463227 Iter 6000: Training Loss = 0.3317, Accuracy = 0.9062
+2018-05-14 08:15:23.115514 Iter 7000: Training Loss = 0.4996, Accuracy = 0.8047
+2018-05-14 08:16:35.680091 Iter 8000: Testing Accuracy = 0.8310
+2018-05-14 08:16:35.713266 Iter 8000: Training Loss = 0.2704, Accuracy = 0.8984
+2018-05-14 08:17:45.509250 Iter 9000: Training Loss = 0.3244, Accuracy = 0.8750
+2018-05-14 08:18:54.162608 Iter 10000: Training Loss = 0.4017, Accuracy = 0.8906
+2018-05-14 08:20:03.976933 Iter 11000: Training Loss = 0.2212, Accuracy = 0.9531
+2018-05-14 08:21:15.382731 Iter 12000: Testing Accuracy = 0.8488
+2018-05-14 08:21:15.415958 Iter 12000: Training Loss = 0.3176, Accuracy = 0.8906
+2018-05-14 08:22:25.200925 Iter 13000: Training Loss = 0.3357, Accuracy = 0.9062
+2018-05-14 08:23:33.758418 Iter 14000: Training Loss = 0.1993, Accuracy = 0.9375
+2018-05-14 08:24:43.480271 Iter 15000: Training Loss = 0.2364, Accuracy = 0.8828
+2018-05-14 08:25:55.991454 Iter 16000: Testing Accuracy = 0.8578
+2018-05-14 08:25:56.024557 Iter 16000: Training Loss = 0.1192, Accuracy = 0.9688
+2018-05-14 08:27:04.599352 Iter 17000: Training Loss = 0.3134, Accuracy = 0.8750
+2018-05-14 08:28:14.353505 Iter 18000: Training Loss = 0.1427, Accuracy = 0.9375
+2018-05-14 08:29:22.946023 Iter 19000: Training Loss = 0.1553, Accuracy = 0.9531
+2018-05-14 08:30:35.477930 Iter 20000: Testing Accuracy = 0.8693
+2018-05-14 08:30:35.510963 Iter 20000: Training Loss = 0.0997, Accuracy = 0.9922
+2018-05-14 08:31:44.128429 Iter 21000: Training Loss = 0.1762, Accuracy = 0.9453
+2018-05-14 08:32:53.892429 Iter 22000: Training Loss = 0.1085, Accuracy = 0.9766
+2018-05-14 08:34:02.471822 Iter 23000: Training Loss = 0.1496, Accuracy = 0.9375
+2018-05-14 08:35:14.957320 Iter 24000: Testing Accuracy = 0.8644
+2018-05-14 08:35:14.990140 Iter 24000: Training Loss = 0.1626, Accuracy = 0.9453
+2018-05-14 08:36:24.738144 Iter 25000: Training Loss = 0.1265, Accuracy = 0.9688
+2018-05-14 08:37:33.322180 Iter 26000: Training Loss = 0.1033, Accuracy = 0.9844
+2018-05-14 08:38:43.072884 Iter 27000: Training Loss = 0.1419, Accuracy = 0.9531
+2018-05-14 08:39:54.449817 Iter 28000: Testing Accuracy = 0.8571
+2018-05-14 08:39:54.482794 Iter 28000: Training Loss = 0.1710, Accuracy = 0.9688
+2018-05-14 08:41:04.237889 Iter 29000: Training Loss = 0.0533, Accuracy = 0.9922
+2018-05-14 08:42:12.820330 Iter 30000: Training Loss = 0.1152, Accuracy = 0.9609
+2018-05-14 08:43:22.583933 Iter 31000: Training Loss = 0.1211, Accuracy = 0.9609
+2018-05-14 08:44:35.108783 Iter 32000: Testing Accuracy = 0.8870
+2018-05-14 08:44:35.141818 Iter 32000: Training Loss = 0.0845, Accuracy = 0.9922
+2018-05-14 08:45:43.831193 Iter 33000: Training Loss = 0.1785, Accuracy = 0.9297
+2018-05-14 08:46:53.578232 Iter 34000: Training Loss = 0.0555, Accuracy = 0.9922
+2018-05-14 08:48:02.163204 Iter 35000: Training Loss = 0.1296, Accuracy = 0.9453
+2018-05-14 08:49:14.661329 Iter 36000: Testing Accuracy = 0.8848
+2018-05-14 08:49:14.694281 Iter 36000: Training Loss = 0.0877, Accuracy = 0.9766
+2018-05-14 08:50:23.287510 Iter 37000: Training Loss = 0.1648, Accuracy = 0.9375
+2018-05-14 08:51:33.131510 Iter 38000: Training Loss = 0.0856, Accuracy = 0.9766
+2018-05-14 08:52:41.724022 Iter 39000: Training Loss = 0.0653, Accuracy = 0.9922
+2018-05-14 08:53:54.225094 Iter 40000: Testing Accuracy = 0.8891
+2018-05-14 08:53:54.258413 Iter 40000: Training Loss = 0.1948, Accuracy = 0.9219
+2018-05-14 08:55:04.038739 Iter 41000: Training Loss = 0.0297, Accuracy = 1.0000
+2018-05-14 08:56:12.618753 Iter 42000: Training Loss = 0.0134, Accuracy = 1.0000
+2018-05-14 08:57:22.394022 Iter 43000: Training Loss = 0.0146, Accuracy = 1.0000
+2018-05-14 08:58:33.746938 Iter 44000: Testing Accuracy = 0.9276
+2018-05-14 08:58:33.780293 Iter 44000: Training Loss = 0.0125, Accuracy = 1.0000
+2018-05-14 08:59:43.528216 Iter 45000: Training Loss = 0.0208, Accuracy = 1.0000
+2018-05-14 09:00:52.115703 Iter 46000: Training Loss = 0.0070, Accuracy = 1.0000
+2018-05-14 09:02:01.871565 Iter 47000: Training Loss = 0.0041, Accuracy = 1.0000
+2018-05-14 09:03:14.388177 Iter 48000: Testing Accuracy = 0.9292
+2018-05-14 09:03:14.421457 Iter 48000: Training Loss = 0.0043, Accuracy = 1.0000
+2018-05-14 09:04:23.009794 Iter 49000: Training Loss = 0.0027, Accuracy = 1.0000
+2018-05-14 09:05:32.792719 Iter 50000: Training Loss = 0.0051, Accuracy = 1.0000
+2018-05-14 09:06:41.370365 Iter 51000: Training Loss = 0.0035, Accuracy = 1.0000
+2018-05-14 09:07:53.867984 Iter 52000: Testing Accuracy = 0.9295
+2018-05-14 09:07:53.900798 Iter 52000: Training Loss = 0.0058, Accuracy = 1.0000
+2018-05-14 09:09:02.483497 Iter 53000: Training Loss = 0.0040, Accuracy = 1.0000
+2018-05-14 09:10:12.241650 Iter 54000: Training Loss = 0.0042, Accuracy = 1.0000
+2018-05-14 09:11:22.008868 Iter 55000: Training Loss = 0.0058, Accuracy = 1.0000
+2018-05-14 09:12:33.344671 Iter 56000: Testing Accuracy = 0.9305
+2018-05-14 09:12:33.377959 Iter 56000: Training Loss = 0.0028, Accuracy = 1.0000
+2018-05-14 09:13:43.135551 Iter 57000: Training Loss = 0.0027, Accuracy = 1.0000
+2018-05-14 09:14:51.731180 Iter 58000: Training Loss = 0.0021, Accuracy = 1.0000
+2018-05-14 09:16:01.496605 Iter 59000: Training Loss = 0.0032, Accuracy = 1.0000
+2018-05-14 09:17:12.833524 Iter 60000: Testing Accuracy = 0.9287
+2018-05-14 09:17:12.866336 Iter 60000: Training Loss = 0.0031, Accuracy = 1.0000
+2018-05-14 09:18:22.617771 Iter 61000: Training Loss = 0.0036, Accuracy = 1.0000
+2018-05-14 09:19:31.203871 Iter 62000: Training Loss = 0.0133, Accuracy = 0.9922
+2018-05-14 09:20:40.971285 Iter 63000: Training Loss = 0.0027, Accuracy = 1.0000
+2018-05-14 09:21:53.499818 Iter 64000: Testing Accuracy = 0.9298
+2018-05-14 09:21:53.532802 Iter 64000: Training Loss = 0.0019, Accuracy = 1.0000
+2018-05-14 09:23:02.145780 Iter 65000: Training Loss = 0.0027, Accuracy = 1.0000
+2018-05-14 09:24:11.900536 Iter 66000: Training Loss = 0.0028, Accuracy = 1.0000
+2018-05-14 09:25:20.499183 Iter 67000: Training Loss = 0.0012, Accuracy = 1.0000
+2018-05-14 09:26:33.009415 Iter 68000: Testing Accuracy = 0.9314
+2018-05-14 09:26:33.042124 Iter 68000: Training Loss = 0.0018, Accuracy = 1.0000
+2018-05-14 09:27:41.639820 Iter 69000: Training Loss = 0.0032, Accuracy = 1.0000
+2018-05-14 09:28:51.391220 Iter 70000: Training Loss = 0.0017, Accuracy = 1.0000
+2018-05-14 09:30:01.151972 Iter 71000: Training Loss = 0.0022, Accuracy = 1.0000
+2018-05-14 09:31:12.516515 Iter 72000: Testing Accuracy = 0.9319
+2018-05-14 09:31:12.549467 Iter 72000: Training Loss = 0.0015, Accuracy = 1.0000
+2018-05-14 09:32:22.298684 Iter 73000: Training Loss = 0.0021, Accuracy = 1.0000
+2018-05-14 09:33:30.887063 Iter 74000: Training Loss = 0.0011, Accuracy = 1.0000
+2018-05-14 09:34:40.653626 Iter 75000: Training Loss = 0.0020, Accuracy = 1.0000
+2018-05-14 09:35:51.981576 Iter 76000: Testing Accuracy = 0.9313
+2018-05-14 09:35:52.014493 Iter 76000: Training Loss = 0.0015, Accuracy = 1.0000
+2018-05-14 09:37:01.773536 Iter 77000: Training Loss = 0.0015, Accuracy = 1.0000
+2018-05-14 09:38:10.383396 Iter 78000: Training Loss = 0.0019, Accuracy = 1.0000
+2018-05-14 09:39:20.155206 Iter 79000: Training Loss = 0.0018, Accuracy = 1.0000
+finish!!!
